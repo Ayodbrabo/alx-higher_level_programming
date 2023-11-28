@@ -1,6 +1,7 @@
+#!/usr/bin/python3
 def islower(c):
-    return ord('a') <= ord(c) <= ord('z')
-
-print(islower('a'))
-print(islower('A'))
-print(islower('1'))
+    """Print a string in lowercase."""
+    if ord(c) >= 97 and ord(c) <= 122:
+        return True
+    else:
+        return False
